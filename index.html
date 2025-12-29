@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PyroJS Test Site</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+    button {
+      padding: 1rem 2rem;
+      margin: 1rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border: none;
+      border-radius: 8px;
+      background: #ff4500;
+      color: white;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>PyroJS Test Site</h1>
+  <p>Click a button to trigger an explosion!</p>
+
+  <button onclick="PyroJS.dynamite(1)">Dynamite</button>
+  <button onclick="PyroJS.nuclear(1)">Nuclear</button>
+  <button onclick="PyroJS.tnt(1)">TNT</button>
+
+  <!-- Include PyroJS library -->
+  <script src="PyroJS.js"></script>
+</body>
+</html>
