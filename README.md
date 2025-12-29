@@ -1,5 +1,6 @@
 # PyroJS
 PyroJS is a library that adds explosions to your sites using gifs.
+**Exapmle :** [🧨 PyroJS example](https://prankapple.github.io/PyroJS)
 # Usage:
 To import it to your html use : 
 ```html
